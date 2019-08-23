@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/Data/Projects/Mobile/findviet/Mobile/EcoNew/node_modules/react-native-fingerprint-scanner/android/build/intermediates/res/merged/release/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/tai.nguyen/.gradle/caches/transforms-2/files-2.1/415e131c953f1537656b7cc81d51bfce/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Volumes/Data/Projects/Mobile/findviet/Mobile/EcoNew/node_modules/react-native-fingerprint-scanner/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/tai.nguyen/.gradle/caches/transforms-2/files-2.1/415e131c953f1537656b7cc81d51bfce/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

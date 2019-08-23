@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      "react-native-fingerprint-scanner@2.6.1",
+      "/Volumes/Data/Projects/Mobile/findviet/Mobile/EcoNew"
+    ]
+  ],
+  "_from": "react-native-fingerprint-scanner@2.6.1",
+  "_id": "react-native-fingerprint-scanner@2.6.1",
+  "_inBundle": false,
+  "_integrity": "sha512-S3MohzwNqtsikDfIn5X1ji9tSpfJ/JHFG/ecXr9uZ6dgO+qvFexPx07+doGKwSi8tg/zg2HhTL62FCh8FTpOFQ==",
+  "_location": "/react-native-fingerprint-scanner",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-fingerprint-scanner@2.6.1",
+    "name": "react-native-fingerprint-scanner",
+    "escapedName": "react-native-fingerprint-scanner",
+    "rawSpec": "2.6.1",
+    "saveSpec": null,
+    "fetchSpec": "2.6.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-fingerprint-scanner/-/react-native-fingerprint-scanner-2.6.1.tgz",
+  "_spec": "2.6.1",
+  "_where": "/Volumes/Data/Projects/Mobile/findviet/Mobile/EcoNew",
+  "author": {
+    "name": "Hieu Van",
+    "url": "https://github.com/hieuvp"
+  },
+  "bugs": {
+    "url": "https://github.com/hieuvp/react-native-fingerprint-scanner/issues"
+  },
+  "description": "React Native Fingerprint Scanner for Android and iOS",
+  "homepage": "https://github.com/hieuvp/react-native-fingerprint-scanner#readme",
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "react-component",
+    "react",
+    "native",
+    "touch",
+    "touchid",
+    "touch-id",
+    "fingerprint",
+    "fingerprint-scanner",
+    "authentication",
+    "authenticate",
+    "auth"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-fingerprint-scanner",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieuvp/react-native-fingerprint-scanner.git"
+  },
+  "scripts": {
+    "android": "cd examples && react-native run-android",
+    "cleanup": "rm -rf android/build ios/build yarn.lock node_modules && cd examples && rm -rf android/build android/app/build ios/build yarn.lock node_modules",
+    "cleanup:android": "cd examples/android && ./gradlew clean",
+    "cleanup:install": "yarn cleanup && yarn && cd examples && yarn && cd .. && yarn symlink && yarn cleanup:android",
+    "ios": "cd examples && react-native run-ios",
+    "symlink": "cd examples && rm -rf node_modules/react-native-fingerprint-scanner && npm link ../../react-native-fingerprint-scanner && rm -rf ../package-lock.json"
+  },
+  "version": "2.6.1"
+}
